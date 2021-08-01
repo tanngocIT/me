@@ -30,7 +30,7 @@ function App() {
 						<span>Skype</span> : {INFO.SKYPE}
 					</li>
 					<li>
-						<span>Linkedin</span> : <a href={INFO.LINKEDIN_URL} target="_blank">{INFO.LINKEDIN_TITLE}</a>
+						<span>Linkedin</span> : <a href={INFO.LINKEDIN_URL} target="_blank" rel="noreferrer">{INFO.LINKEDIN_TITLE}</a>
 					</li>
 					<li>
 						<span>Freelance</span> :{' '}
