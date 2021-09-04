@@ -1,6 +1,8 @@
 import { Fragment, useRef } from 'react';
 import { FaGlobe, FaGraduationCap, FaThumbsUp, FaGrav } from 'react-icons/fa';
 import ReactPDF from 'react-to-pdf';
+import html2canvas from 'html2canvas';
+import { jsPDF } from "jspdf";
 import {
 	INFO,
 	EDUCATION,
@@ -179,12 +181,12 @@ function App() {
 						I'm a software engineer with more than 4 years of experience in Web Development. 
 						I'm a creative, hardworking, enthusiastic,
 						ambitious and able to work under high pressure.<br></br>
-						 My focus in on trying to
+						My focus is on trying to
 						learn as much as possible and doing my best in order to
 						accomplish assigned task, supporting my team members,
 						research and apply new technologies effectively.
 						I'm passionate about new technology and
-						professional work environment. And I'm so funny 🙂
+						professional work environment. And I'm pretty funny 🙂
 					</p>
 				</div>
 			</section>
@@ -216,6 +218,19 @@ function App() {
 		);
 	};
 
+	const download = () => {
+		html2canvas(document.body).then(function(canvas) {
+			// document.body.appendChild(canvas);
+			var imgData = canvas.toDataURL("image/jpeg");
+			
+			var downLoadData = imgData.replace(/^data:image\/png/, 'data:application/octet-stream');
+			var a = document.createElement("a");
+			a.href = downLoadData;
+			a.download = "Tan Nguyen - Resume.png";
+			a.click();
+		});
+	}
+
 	return (
 		<>
 			<ReactPDF>
@@ -227,6 +242,7 @@ function App() {
 								<span>Senior Software Engineer</span>
 							</div>
 							<div className='avatar'></div>
+							{/* <button onClick={download} id="download">Download</button> */}
 						</header>
 
 						<main className='d-flex'>

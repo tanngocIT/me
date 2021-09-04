@@ -58,7 +58,7 @@ export const INTERESTS = [
 
 export const EXPERIENCES = [
 	{
-		title: "KYC (Samurai Security - Japan) - Orient Software",
+		title: "KYC (Japan) - Orient Software",
 		date: "Jun 2021 - Present",
 		description:
 			"Coming from a company of Japan, They want to create a system to manage finacial assets, will etc on blockchain environment. " + 
@@ -89,11 +89,11 @@ export const EXPERIENCES = [
 		responsibility: "Senior Software Engineer",
 	},	
 	{
-		title: "Holtel Service (Vingroup) - Orient Software",
+		title: "Hotel Service (Viet Nam) - Orient Software",
 		date: "May 2019 - Dec 2020",
 		description:
 			"Coming from Vingroup company, they want to build a part the internal service to finding hotel for comparing the price and services. " +
-			"Provide for their customer a service to search the holtels and booking. " +
+			"Provide for their customer a service to search the hotels and booking. " +
 			"The system was built on web app using Angular 8.",
 		techs: ["Angular", "Azure DevOps", ".NET Core", "Kafka", "MySQL"],
 		responsibility: "Software Engineer",
