@@ -26,7 +26,7 @@ function App() {
 						<span>Phone</span> : {INFO.PHONE}
 					</li>
 					<li>
-						<span>Email</span> : <a href = {"mailto:" + INFO.EMAIL}>{INFO.EMAIL}</a>
+						<span>Email</span> : <a href={"mailto:" + INFO.EMAIL}>{INFO.EMAIL}</a>
 					</li>
 					<li>
 						<span>Skype</span> : {INFO.SKYPE}
@@ -178,7 +178,7 @@ function App() {
 				<div className='block border-box'>
 					<h3>Summary</h3>
 					<p className='mt-3 summary'>
-						I'm a software engineer with more than 4 years of experience in Web Development. 
+						I'm a software engineer with more than 4 years of experience in Web Development.
 						I'm a creative, hardworking, enthusiastic,
 						ambitious and able to work under high pressure.<br></br>
 						My focus is on trying to
@@ -199,7 +199,7 @@ function App() {
 				<h3>Work Experiences</h3>
 				<div className='work-experiences mt-4'>
 					{EXPERIENCES.map((exp, idx) => (
-						<div key={idx} class='listing-content'>
+						<div key={idx} className='listing-content'>
 							<h6 className='exp-date'>{exp.date}</h6>
 							<h6 className='exp-title'>{exp.title}</h6>
 							<p className='tag'>{exp.responsibility}</p>
@@ -219,10 +219,10 @@ function App() {
 	};
 
 	const download = () => {
-		html2canvas(document.body).then(function(canvas) {
+		html2canvas(document.body).then(function (canvas) {
 			// document.body.appendChild(canvas);
 			var imgData = canvas.toDataURL("image/jpeg");
-			
+
 			var downLoadData = imgData.replace(/^data:image\/png/, 'data:application/octet-stream');
 			var a = document.createElement("a");
 			a.href = downLoadData;
