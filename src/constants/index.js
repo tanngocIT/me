@@ -58,8 +58,32 @@ export const INTERESTS = [
 
 export const EXPERIENCES = [
 	{
+		title: "Plenti (Australia) - Orient Software",
+		date: "Apr 2022 - Present",
+		description:
+			"Plenti is a fintech lender, providing Australians with faster, fairer loans through smart technology." +
+			"Our proprietary technology platform allows us to provide creditworthy customers - whose preferences are changing - with automotive, " +
+			"renewable energy and personal loans to help bring their big ideas to life. Since establishment in 2014, our loan originations have grown consistently, " +
+			"supported by diversified loan products, distribution channels and funding, and underpinned by exceptional credit performance and continual innovation. " +
+			"Plenti listed on the ASX in September 2020.",
+		techs: [
+			"React",
+			"Redux",
+			".NET Core",
+			"GraphQL",
+			"S3 Bucket",
+			"Azure DevOps",
+			"Serverless",
+			"MySQL",
+			"Redis",
+			"Angular",
+			"Flutter"
+		],
+		responsibility: "Senior Software Engineer",
+	},
+	{
 		title: "E-Closing (USA) - FPT Software",
-		date: "Dec 2021 - Present",
+		date: "Dec 2021 - Apr 2022",
 		description:
 			"Coming from USA company. E‑Closing is now the premier cloud-based title production system in the Land Title Industry and is the most experienced in its space. " +
 			"As regulatory and compliance requirements change, along with the increasing threat of cyber security breaches, E‑Closing uses this experience to help educate and protect its clients.",
