@@ -1,10 +1,10 @@
 import { FaMusic, FaGamepad, FaPlane, FaCookie } from "react-icons/fa";
 
 export const INFO = {
-	BIRTHDAY: "16-09-1995",
+	BIRTHDAY: "1995",
 	EMAIL: "tanngocit@gmail.com",
 	SKYPE: "tanngocit",
-	PHONE: "0773550028",
+	PHONE: "0********8",
 	FREELANCER: true,
 	LINKEDIN_URL: "https://www.linkedin.com/in/tanngocit",
 	LINKEDIN_TITLE: "tanngocit",
