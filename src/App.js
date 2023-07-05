@@ -178,7 +178,7 @@ function App() {
 				<div className='block border-box'>
 					<h3>Summary</h3>
 					<p className='mt-3 summary'>
-						I'm a software engineer with more than 4 years of experience in Web Development.
+						I'm a software engineer with more than 5 years of experience in Web Development.
 						I'm a creative, hardworking, enthusiastic,
 						ambitious and able to work under high pressure.<br></br>
 						My focus is on trying to
